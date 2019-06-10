@@ -42,7 +42,6 @@ class MyCircularQueue:
         if self.isFull():
             return False
         if self.isEmpty():
-            print('It is empty', self.head, self.tail)
             self.q[0] = value
             self.head = 0
             self.tail = 0
